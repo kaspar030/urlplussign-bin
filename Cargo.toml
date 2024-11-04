@@ -1,0 +1,10 @@
+[package]
+name = "urlplussign-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+urlplussign-lib = "*"
+
+[patch.crates-io]
+urlplussign-lib = { git = "https://github.com/kaspar030/urlplussign-lib", branch = "main+plus" }
